@@ -13,10 +13,10 @@ public class User {
     private String name;
     private Integer age;
     private String email;
-    /*@TableField(fill = FieldFill.INSERT_UPDATE)
+    @TableField(fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime updateTime;
     @TableField(fill = FieldFill.INSERT)
-    private LocalDateTime createTime;*/
+    private LocalDateTime createTime;
 
 
 }

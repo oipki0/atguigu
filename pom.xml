@@ -20,6 +20,9 @@
             mybatis-plus
         </module>
         <module>mybatis-plus</module>
+        <module>guigu-common</module>
+        <module>service-base</module>
+        <module>service-core</module>
     </modules>
 
     <properties>
@@ -192,11 +195,11 @@
         </dependencies>
     </dependencyManagement>
 
-    <!--    <dependencies>-->
-    <!--        <dependency>-->
-    <!--            <groupId>org.springframework.boot</groupId>-->
-    <!--            <artifactId>spring-boot-starter-test</artifactId>-->
-    <!--            <scope>test</scope>-->
-    <!--        </dependency>-->
-    <!--    </dependencies>-->
+      <dependencies>
+          <dependency>
+              <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-test</artifactId>
+               <scope>test</scope>
+           </dependency>
+       </dependencies>
 </project>
